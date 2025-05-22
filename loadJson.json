@@ -1,0 +1,117 @@
+{
+  "SettingModel": {
+    "version": 5,
+    "skel": "CH0284_home.skel",
+    "atlas": "CH0284_home.atlas",
+    "eyeTouch": "Touch_Me",
+    "idol": "Idle_01",
+    "x": 620,
+    "y": 845,
+    "scale": 0.45,
+    "angle": 0,
+    "bgmVolume": 0.2,
+    "talkVolume": 0.5,
+    "showTouch": false,
+    "panelDisplay": false,
+    "showTalkDialog": true,
+    "textX": 595,
+    "textY": 650,
+    "textSize": 16,
+    "autoTalk": 0,
+    "resolution": "2k",
+    "startAnimation": "Start_Idle_01",
+    "startScene": true,
+    "language": "Bahasa Indonesia"
+  },
+  "EventInfos": [
+    {
+      "BoneName": "Head",
+      "Width": 1500,
+      "Height": 800,
+      "Animations": [
+        "Talk_01_M",
+        "Talk_02_M",
+        "Talk_03_M",
+        "Talk_04_M",
+        "Talk_05_M"
+      ],
+      "AnimationIndex": 10,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": true
+    },
+
+    {
+      "BoneName": "T_hair",
+      "Width": 800,
+      "Height": 500,
+      "Animations": ["Pat_01_M"],
+      "AnimationIndex": 20,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": false
+    }
+  ],
+  "AnimationsTexts": {
+    "中文": {
+      "sound/CH0284_MemorialLobby_0_1": "啊、嗯嗯…好好吃……",
+      "sound/CH0284_MemorialLobby_0_2": "啊、呜哇......！？",
+      "sound/CH0284_MemorialLobby_1": "老、老师？这个时间点您为什么会在这……？",
+      "sound/CH0284_MemorialLobby_2_1": "那、那个……这是、那个……",
+      "sound/CH0284_MemorialLobby_2_2": "我有点睡不着、出来散步的时候……",
+      "sound/CH0284_MemorialLobby_2_3": "无意间看到了贴在那的「天使鸡」……",
+      "sound/CH0284_MemorialLobby_3_1": "因、因为、这也是没办法的吧？",
+      "sound/CH0284_MemorialLobby_3_2": "这个时间有刚炸好的、天使鸡啊！",
+      "sound/CH0284_MemorialLobby_3_3": "热乎乎而且冒着汁水！根本没有不买的理由啊！",
+      "sound/CH0284_MemorialLobby_4_1": "所、所以那个……也不是、每天都",
+      "sound/CH0284_MemorialLobby_4_2": "吃宵夜、啦……",
+      "sound/CH0284_MemorialLobby_5_1": "那那个……要不、",
+      "sound/CH0284_MemorialLobby_5_2": "老师也、吃一口？"
+    },
+    "日本語": {
+      "sound/CH0284_MemorialLobby_0_1": "おいしい......",
+      "sound/CH0284_MemorialLobby_0_2": "あっ、うぁ！",
+      "sound/CH0284_MemorialLobby_1": "せ、先生？こんな時間にどうして……？",
+      "sound/CH0284_MemorialLobby_2_1": "え、えっと……これは、その……",
+      "sound/CH0284_MemorialLobby_2_2": "ちょっと寝付けなくて、散歩に出たら……",
+      "sound/CH0284_MemorialLobby_2_3": "そこの貼り紙の「エンジェルチキン」が目に入ったんです……。",
+      "sound/CH0284_MemorialLobby_3_1": "だ、だって、仕方ないでしょう？",
+      "sound/CH0284_MemorialLobby_3_2": "この時間のエンジェルチキンは、揚げたてなんです！",
+      "sound/CH0284_MemorialLobby_3_3": "あっつあつで肉汁たっぷりなんですから！買わない手はありません！",
+      "sound/CH0284_MemorialLobby_4_1": "だ、だからその……別に、毎日毎日、",
+      "sound/CH0284_MemorialLobby_4_2": "夜食を取ってるわけじゃ、ないんですから……。",
+      "sound/CH0284_MemorialLobby_5_1": "えっと……よかったら、",
+      "sound/CH0284_MemorialLobby_5_2": "先生も一口、食べますか？"
+    },
+    "Tiếng Việt": {
+      "sound/CH0284_MemorialLobby_0_1": "Hộc..................ngon quá~~",
+      "sound/CH0284_MemorialLobby_0_2": "Hư....há!",
+      "sound/CH0284_MemorialLobby_1": "Se-Sensei!? Tại sao thầy lại ở đây vậy....?",
+      "sound/CH0284_MemorialLobby_2_1": "E-Eto....Thật ra, chuyện là....",
+      "sound/CH0284_MemorialLobby_2_2": "Em có hơi khó ngủ, nên mới đi dạo một chút....",
+      "sound/CH0284_MemorialLobby_2_3": "Thì em để ý thấy biển báo có ghi 「Angel Chicken」 ngay trước đó....!",
+      "sound/CH0284_MemorialLobby_3_1": "vì vậy, em có còn cách nào khác chứ?",
+      "sound/CH0284_MemorialLobby_3_2": "Lúc này Angel Chicken cũng vừa chiên xong!",
+      "sound/CH0284_MemorialLobby_3_3": "Nó nóng hổi và ngập chàn nước sốt trong đó! Không có lí do gì để em không mua nó cả!",
+      "sound/CH0284_MemorialLobby_4_1": "Thế-thế nên là.... không phải ngày nào em cũng mua,",
+      "sound/CH0284_MemorialLobby_4_2": "Đồ ăn vặt mỗi đêm đâu.... mà....",
+      "sound/CH0284_MemorialLobby_5_1": "Eto.... Nếu không phiền,",
+      "sound/CH0284_MemorialLobby_5_2": "Sensei có thể, nếm thử món này xem?"
+    },
+    "Bahasa Indonesia": {
+      "sound/CH0284_MemorialLobby_0_1": "Enak banget...",
+      "sound/CH0284_MemorialLobby_0_2": "Ah, aduh!",
+      "sound/CH0284_MemorialLobby_1": "Se-Sensei? Kenapa kamu ada di sini jam segini?",
+      "sound/CH0284_MemorialLobby_2_1": "E-Ehm... Jadi, gini...",
+      "sound/CH0284_MemorialLobby_2_2": "Aku nggak bisa tidur, jadi aku jalan-jalan...",
+      "sound/CH0284_MemorialLobby_2_3": "Terus aku lihat ada tulisan 'Angel Chicken' di sana...",
+      "sound/CH0284_MemorialLobby_3_1": "Ya kan, gimana lagi?",
+      "sound/CH0284_MemorialLobby_3_2": "Jam segini Angel Chicken masih fresh dari penggorengan!",
+      "sound/CH0284_MemorialLobby_3_3": "Panas-panas dan penuh dengan saus! Nggak ada alasan buat nggak beli!",
+      "sound/CH0284_MemorialLobby_4_1": "Jadi, bukan berarti aku setiap hari...",
+      "sound/CH0284_MemorialLobby_4_2": "Makan cemilan tengah malam, kok...",
+      "sound/CH0284_MemorialLobby_5_1": "Ehm... Kalau kamu mau,",
+      "sound/CH0284_MemorialLobby_5_2": "Kamu mau coba sedikit?"
+    }
+  }
+}
